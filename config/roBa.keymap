@@ -82,7 +82,7 @@
         default_layer {
             bindings = <
 &kp Q               &kp W         &kp E             &kp R                        &kp T                                                 &kp Y        &kp U  &lt 5 I    &kp O    &kp P
-&kp A               &kp S         &kp D             &kp F                        &kp G        &kp LS(LG(S))             &kp MINUS      &kp H        &kp J  &kp K      &kp L    &kp SQT
+&kp A               &kp S         &kp D             &kp F                        &kp G        &kp LS(LG(S))             &kp TAB        &kp H        &kp J  &kp K      &kp L    &kp SQT
 &mt LEFT_SHIFT Z    &kp X         &kp C             &kp V                        &kp B        &kp COLON                 &kp SEMICOLON  &kp N        &kp M  &kp COMMA  &kp DOT  &mt RSHFT SLASH
 &mt LEFT_SHIFT TAB  &kp LEFT_ALT  &kp LEFT_COMMAND  &mt LEFT_CONTROL LANGUAGE_2  &lt 3 SPACE  &lt_to_layer_0 5 TAB      &kp BACKSPACE  &lt 2 ENTER                             &lt 6 RS(RG(NUMBER_5))
             >;
@@ -102,7 +102,7 @@
         NUM {
             bindings = <
 &kp SLASH                   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp ASTERISK                                         &trans         &kp AMPERSAND    &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp GRAVE
-&kp LS(MINUS)               &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK    &kp LC(LA(KP_NUMBER_0))      &trans  &kp BACKSLASH  &kp HASH         &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp AT
+&kp LS(MINUS)               &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp MINUS       &kp LC(LA(KP_NUMBER_0))      &trans  &kp BACKSLASH  &kp HASH         &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp AT
 &mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PLUS        &kp EQUAL                    &trans  &kp ASTERISK   &kp EXCLAMATION  &kp EQUAL             &kp DOLLAR             &mt RIGHT_SHIFT QUESTION
 &trans                      &trans           &trans           &kp LANGUAGE_1   &kp LEFT_SHIFT  &trans                       &trans  &trans                                                                       &trans
             >;
