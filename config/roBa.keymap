@@ -103,7 +103,7 @@
             bindings = <
 &kp SLASH                   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp ASTERISK                                         &trans         &kp AMPERSAND    &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp GRAVE
 &kp LS(MINUS)               &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK    &kp LC(LA(KP_NUMBER_0))      &trans  &kp BACKSLASH  &kp HASH         &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp AT
-&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PLUS        &kp EQUAL                    &trans  &kp ASTERISK   &kp EXCLAMATION  &kp EQUAL             &kp DOLLAR             &kp QUESTION
+&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PLUS        &kp EQUAL                    &trans  &kp ASTERISK   &kp EXCLAMATION  &kp EQUAL             &kp DOLLAR             &mt RIGHT_SHIFT QUESTION
 &trans                      &trans           &trans           &kp LANGUAGE_1   &kp LEFT_SHIFT  &trans                       &trans  &trans                                                                       &trans
             >;
         };
