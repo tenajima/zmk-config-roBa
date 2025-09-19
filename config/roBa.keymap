@@ -82,7 +82,7 @@
         default_layer {
             bindings = <
 &kp Q               &kp W         &kp E             &kp R                        &kp T                                                 &kp Y        &kp U  &lt 5 I    &kp O    &kp P
-&kp A               &kp S         &kp D             &kp F                        &kp G        &kp LS(LG(S))             &kp BACKSPACE  &kp H        &kp J  &kp K      &kp L    &kp SQT
+&kp A               &kp S         &kp D             &kp F                        &kp G        &kp LS(LG(S))             &trans         &kp H        &kp J  &kp K      &kp L    &kp SQT
 &mt LEFT_SHIFT Z    &kp X         &kp C             &kp V                        &kp B        &kp COLON                 &kp SEMICOLON  &kp N        &kp M  &kp COMMA  &kp DOT  &mt RSHFT SLASH
 &mt LEFT_SHIFT TAB  &kp LEFT_ALT  &kp LEFT_COMMAND  &mt LEFT_CONTROL LANGUAGE_2  &lt 3 SPACE  &lt_to_layer_0 5 TAB      &kp MINUS      &lt 2 ENTER                             &lt 6 RS(RG(NUMBER_5))
             >;
@@ -110,10 +110,10 @@
 
         ARROW {
             bindings = <
-&trans      &trans          &kp TAB       &trans           &trans                                         &trans             &trans  &trans             &trans  &trans
-&kp ESCAPE  &kp LEFT_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans  &trans      &trans                     &trans             &trans  &kp RIGHT_COMMAND  &trans  &kp BACKSPACE
-&trans      &trans          &kp DOWN      &trans           &trans  &trans      &trans                     &trans             &trans  &trans             &trans  &trans
-&trans      &trans          &trans        &trans           &trans  &trans      &kp RG(RA(RIGHT_CONTROL))  &kp RIGHT_CONTROL                                     &trans
+&trans      &trans          &kp TAB       &trans           &trans                                         &trans             &trans         &trans             &trans  &trans
+&kp ESCAPE  &kp LEFT_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans  &trans      &trans                     &trans             &kp BACKSPACE  &kp RIGHT_COMMAND  &trans  &trans
+&trans      &trans          &kp DOWN      &trans           &trans  &trans      &trans                     &trans             &trans         &trans             &trans  &trans
+&trans      &trans          &trans        &trans           &trans  &trans      &kp RG(RA(RIGHT_CONTROL))  &kp RIGHT_CONTROL                                            &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
