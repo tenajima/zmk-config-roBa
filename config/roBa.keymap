@@ -111,7 +111,7 @@
         ARROW {
             bindings = <
 &trans      &trans          &kp TAB       &trans           &trans                                         &trans             &trans  &trans             &trans  &trans
-&kp ESCAPE  &kp LEFT_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans  &trans      &trans                     &trans             &trans  &kp RIGHT_COMMAND  &trans  &trans
+&kp ESCAPE  &kp LEFT_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans  &trans      &trans                     &trans             &trans  &kp RIGHT_COMMAND  &trans  &kp BACKSPACE
 &trans      &trans          &kp DOWN      &trans           &trans  &trans      &trans                     &trans             &trans  &trans             &trans  &trans
 &trans      &trans          &trans        &trans           &trans  &trans      &kp RG(RA(RIGHT_CONTROL))  &kp RIGHT_CONTROL                                     &trans
             >;
